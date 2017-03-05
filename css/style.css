@@ -30,7 +30,7 @@ Hs and Types
 h1 {
   font-family: 'Abril Fatface';
   color: #036bdb;
-  text-align: left !important; }
+  text-align: center; }
 
 nav ul a,
 nav .brand-logo {
@@ -77,6 +77,12 @@ i.material-icons {
  *
  * Made By MaterializeCSS.com
  */
+.opener {
+  height: 610px;
+  background-size: 105% 83%;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
 .white {
   background-color: #ffffff;
   position: fixed;
