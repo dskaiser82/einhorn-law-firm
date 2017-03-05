@@ -3,12 +3,12 @@
   height: 1px;
   position: absolute; }
 
-#subscribe {
+#services {
   margin-top: -10%;
   height: 1px;
   position: absolute; }
 
-#advertise {
+#bio {
   margin-top: 0%;
   height: 1px;
   position: absolute; }
@@ -20,6 +20,16 @@
 
 .brand-logo {
   margin-top: 10px; }
+
+/*********************
+COLORS
+Need help w/ choosing your colors? Try this site out:
+http://0to255.com/
+*********************/
+h1 {
+  font-family: 'Abril Fatface';
+  color: #036bdb;
+  text-align: left !important; }
 
 nav ul a,
 nav .brand-logo {
@@ -66,21 +76,6 @@ i.material-icons {
  *
  * Made By MaterializeCSS.com
  */
-.videoplayer {
-  position: absolute;
-  margin-top: 31%;
-  left: 50%;
-  width: 100%;
-  /*min-width: 100%;
-  min-height: 100%:
-  height: auto;
-  z-index: -100;*/
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover; }
-
 .white {
   background-color: #ffffff;
   position: fixed;
