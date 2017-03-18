@@ -18,6 +18,19 @@
   height: 1px;
   position: absolute; }
 
+.header-describe {
+  color: black;
+  text-align: left; }
+
+.ein-opener {
+  width: 70%;
+  margin-top: 10%; }
+  .ein-opener h1 {
+    text-align: left; }
+
+.header-btn-holder {
+  margin-left: -3% !important; }
+
 .brand-logo {
   margin-top: 10px; }
 
@@ -37,7 +50,8 @@ nav .brand-logo {
   color: #444; }
 
 p {
-  line-height: 2rem; }
+  line-height: 2rem;
+  font-size: 1.1em; }
 
 body {
   background-color: white; }
