@@ -35,10 +35,14 @@ COLOR Variables
   margin-left: -3% !important; }
 
 .ein-phone {
-  background-color: #036bdb; }
+  background-color: #036bdb;
+  height: 250px;
+  width: 90%; }
 
 .ein-email {
-  background-color: black; }
+  background-color: black;
+  height: 250px;
+  width: 90%; }
 
 .brand-logo {
   margin-top: 10px; }
@@ -84,10 +88,10 @@ body {
   font-size: inherit; }
 
 i.material-icons {
-  color: #5accf5; }
+  color: white; }
 
 .fa {
-  color: #5accf5; }
+  color: white; }
 
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
