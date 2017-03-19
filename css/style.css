@@ -1,3 +1,6 @@
+/*********************
+COLOR Variables
+*********************/
 #about {
   margin-top: -4%;
   height: 1px;
@@ -30,6 +33,12 @@
 
 .header-btn-holder {
   margin-left: -3% !important; }
+
+.ein-phone {
+  background-color: #036bdb; }
+
+.ein-email {
+  background-color: black; }
 
 .brand-logo {
   margin-top: 10px; }
