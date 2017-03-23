@@ -23,6 +23,8 @@
   position: absolute;
 }
 
+//header styles
+
 .header-describe{
     color: black;
     text-align: left;
@@ -35,6 +37,10 @@
       color: $einhorn-blue;
       text-align: left;
     }
+}
+
+.header-blocks{
+  margin-top: 155px;
 }
 
 .header-btn-holder{
@@ -60,6 +66,18 @@ margin-left: -3% !important;
   background-color: black;
   height: 250px;
   width: 90%;
+
+    p{
+      font-size: 30px;
+      margin-top: 0px;
+      padding-top: 16px;
+    }
+    span{
+      color: $einhorn-blue;
+    }
+    .fa-envelope{
+      color:$einhorn-blue;
+    }
 }
 
 

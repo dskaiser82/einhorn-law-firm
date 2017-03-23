@@ -32,6 +32,9 @@ COLOR Variables
     color: #036bdb;
     text-align: left; }
 
+.header-blocks {
+  margin-top: 155px; }
+
 .header-btn-holder {
   margin-left: -3% !important; }
 
@@ -50,9 +53,26 @@ COLOR Variables
   background-color: black;
   height: 250px;
   width: 90%; }
+  .header-email-hold p {
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 16px; }
+  .header-email-hold span {
+    color: #036bdb; }
+  .header-email-hold .fa-envelope {
+    color: #036bdb; }
 
 .brand-logo {
   margin-top: 10px; }
+
+.ein-abouter {
+  width: 70%;
+  margin-top: 10%; }
+  .ein-abouter h1 {
+    color: #036bdb;
+    text-align: left; }
+  .ein-abouter img {
+    width: 500%; }
 
 /*********************
 Hs and Types
