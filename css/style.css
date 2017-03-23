@@ -39,7 +39,7 @@ COLOR Variables
   height: 250px;
   width: 90%; }
 
-.ein-email {
+.header-email-hold {
   background-color: black;
   height: 250px;
   width: 90%; }
@@ -50,13 +50,23 @@ COLOR Variables
 /*********************
 Hs and Types
 *********************/
-h1 {
+h1, h3 {
   font-family: 'Abril Fatface';
-  color: #036bdb;
   text-align: center; }
+
+h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center; }
+
+.ein-opener h1 {
+  color: #036bdb; }
 
 .header-phone-hold h1 {
   color: white; }
+.header-phone-hold h3 {
+  color: white; }
+.header-phone-hold h6 {
+  color: #aeccf9; }
 
 nav ul a,
 nav .brand-logo {
@@ -95,6 +105,13 @@ i.material-icons {
 
 .header-phone-hold {
   text-align: center; }
+  .header-phone-hold .fa-phone {
+    margin-top: 15px; }
+
+.header-email-hold {
+  text-align: center; }
+  .header-email-hold .fa-envelope {
+    margin-top: 15px; }
 
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
