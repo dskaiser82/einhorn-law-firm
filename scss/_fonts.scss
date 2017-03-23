@@ -2,12 +2,6 @@
 
 
 /*********************
-COLOR Variables
-*********************/
-
-$einhorn-blue:         #036bdb;
-
-/*********************
 Hs and Types
 *********************/
 
@@ -16,5 +10,11 @@ font-family: 'Abril Fatface';
 color: $einhorn-blue;
 text-align: center;
 
+}
 
+// h1 in header
+.header-phone-hold{
+  h1{
+    color: white;
+  }
 }

@@ -34,7 +34,7 @@ COLOR Variables
 .header-btn-holder {
   margin-left: -3% !important; }
 
-.ein-phone {
+.header-phone-hold {
   background-color: #036bdb;
   height: 250px;
   width: 90%; }
@@ -48,15 +48,15 @@ COLOR Variables
   margin-top: 10px; }
 
 /*********************
-COLOR Variables
-*********************/
-/*********************
 Hs and Types
 *********************/
 h1 {
   font-family: 'Abril Fatface';
   color: #036bdb;
   text-align: center; }
+
+.header-phone-hold h1 {
+  color: white; }
 
 nav ul a,
 nav .brand-logo {
@@ -92,6 +92,9 @@ i.material-icons {
 
 .fa {
   color: white; }
+
+.header-phone-hold {
+  text-align: center; }
 
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
