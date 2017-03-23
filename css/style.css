@@ -29,6 +29,7 @@ COLOR Variables
   width: 70%;
   margin-top: 10%; }
   .ein-opener h1 {
+    color: #036bdb;
     text-align: left; }
 
 .header-btn-holder {
@@ -38,6 +39,12 @@ COLOR Variables
   background-color: #036bdb;
   height: 250px;
   width: 90%; }
+  .header-phone-hold h1 {
+    color: white; }
+  .header-phone-hold h3 {
+    color: white; }
+  .header-phone-hold h6 {
+    color: #aeccf9; }
 
 .header-email-hold {
   background-color: black;
@@ -57,16 +64,6 @@ h1, h3 {
 h5, h6 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center; }
-
-.ein-opener h1 {
-  color: #036bdb; }
-
-.header-phone-hold h1 {
-  color: white; }
-.header-phone-hold h3 {
-  color: white; }
-.header-phone-hold h6 {
-  color: #aeccf9; }
 
 nav ul a,
 nav .brand-logo {
