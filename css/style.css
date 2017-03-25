@@ -65,6 +65,12 @@ COLOR Variables
 .brand-logo {
   margin-top: 10px; }
 
+.about-row h2 {
+  color: black;
+  text-align: left; }
+.about-row span {
+  text-decoration: underline; }
+
 .ein-abouter {
   width: 70%;
   margin-top: 10%;
@@ -76,10 +82,18 @@ COLOR Variables
     width: 500px;
     margin-top: -127px; }
 
+.ein-servicer {
+  width: 70%;
+  margin-top: 10%;
+  display: flex; }
+  .ein-servicer h1 {
+    color: #036bdb;
+    text-align: center; }
+
 /*********************
 Hs and Types
 *********************/
-h1, h3 {
+h1, h2, h3 {
   font-family: 'Abril Fatface';
   text-align: center; }
 
