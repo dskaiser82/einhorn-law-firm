@@ -1,9 +1,11 @@
 .ein-servicer{
   width: 70%;
-  margin-top: 10%;
-  display: flex;
-    h1{
-      color: $einhorn-blue;
+  margin-top: -20%;
+    h2{
+      color: white;
       text-align: center;
+    }
+    p{
+      color: $einhorn-light-blue
     }
 }

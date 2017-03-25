@@ -47,7 +47,7 @@ COLOR Variables
   .header-phone-hold h3 {
     color: white; }
   .header-phone-hold h6 {
-    color: #aeccf9; }
+    color: #e3f2fd; }
 
 .header-email-hold {
   background-color: black;
@@ -68,8 +68,6 @@ COLOR Variables
 .about-row h2 {
   color: black;
   text-align: left; }
-.about-row span {
-  text-decoration: underline; }
 
 .ein-abouter {
   width: 70%;
@@ -84,11 +82,12 @@ COLOR Variables
 
 .ein-servicer {
   width: 70%;
-  margin-top: 10%;
-  display: flex; }
-  .ein-servicer h1 {
-    color: #036bdb;
+  margin-top: -20%; }
+  .ein-servicer h2 {
+    color: white;
     text-align: center; }
+  .ein-servicer p {
+    color: #e3f2fd; }
 
 /*********************
 Hs and Types
