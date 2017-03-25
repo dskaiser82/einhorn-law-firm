@@ -67,12 +67,14 @@ COLOR Variables
 
 .ein-abouter {
   width: 70%;
-  margin-top: 10%; }
+  margin-top: 10%;
+  display: flex; }
   .ein-abouter h1 {
     color: #036bdb;
     text-align: left; }
   .ein-abouter img {
-    width: 500%; }
+    width: 500px;
+    margin-top: -127px; }
 
 /*********************
 Hs and Types

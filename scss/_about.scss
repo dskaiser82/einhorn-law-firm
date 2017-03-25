@@ -2,11 +2,13 @@
 .ein-abouter{
   width: 70%;
   margin-top: 10%;
+  display: flex;
     h1{
       color: $einhorn-blue;
       text-align: left;
     }
     img{
-      width: 500%;
+      width: 500px;
+      margin-top: -127px;
     }
 }
