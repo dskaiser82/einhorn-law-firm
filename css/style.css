@@ -99,6 +99,7 @@ COLOR Variables
   margin-right: 5%;
   text-align: center; }
   .serv-table .serv-col {
+    text-align: center;
     min-height: 300px;
     padding-top: 60px;
     border-style: solid;
@@ -109,7 +110,7 @@ COLOR Variables
       border-radius: 50%;
       width: 115px;
       height: 115px;
-      margin-left: 25%;
+      margin-left: 31%;
       padding-top: 28px; }
     .serv-table .serv-col p {
       padding-top: 10px; }
@@ -155,7 +156,7 @@ body {
   font-size: inherit; }
 
 i.material-icons {
-  color: white; }
+  color: #036bdb; }
 
 .fa {
   color: white; }
