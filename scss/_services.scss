@@ -21,6 +21,7 @@
   margin-right: 5%;
   text-align: center;
 
+//controls icons in serv table
     .serv-col{
       text-align: center;
       min-height: 300px;
@@ -35,6 +36,10 @@
         	height: 115px;
           margin-left: 31%;
           padding-top: 28px;
+            //makes icons white
+            .fa{
+              color: white;
+            }
         }
         p{
           padding-top: 10px;

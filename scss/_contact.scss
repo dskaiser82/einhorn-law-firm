@@ -6,8 +6,18 @@
       color: black;
       text-align: center;
     }
-    p{
-      color: $einhorn-light-blue;
+    .mini-contact{
+      color: black;
+      display: flex;
+        i{
+          color: $einhorn-blue;
+            span{
+              color: grey;
+              font-family: 'Source Sans Pro', sans-serif;
+              font-size: 12px;
+              padding-left: 5px;
+            }
+        }
     }
 }
 
