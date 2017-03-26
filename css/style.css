@@ -100,14 +100,22 @@ COLOR Variables
   text-align: center; }
   .serv-table .serv-col {
     min-height: 300px;
+    padding-top: 60px;
     border-style: solid;
     border-width: 1px;
     border-color: #e3f2fd; }
+    .serv-table .serv-col .icon-hold {
+      background-color: #036bdb;
+      border-radius: 70px;
+      height: 140px;
+      width: 50%;
+      margin-left: 25%;
+      padding-top: 31px; }
 
 /*********************
 Hs and Types
 *********************/
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Abril Fatface';
   text-align: center; }
 

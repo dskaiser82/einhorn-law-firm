@@ -23,9 +23,18 @@
 
     .serv-col{
       min-height: 300px;
+      padding-top: 60px;
       border-style: solid;
       border-width: 1px;
       border-color: $einhorn-light-blue;
+        .icon-hold{
+          background-color: $einhorn-blue;
+          border-radius: 70px;
+          height: 140px;
+          width: 50%;
+          margin-left: 25%;
+          padding-top: 31px;
+        }
     }
 
 }
