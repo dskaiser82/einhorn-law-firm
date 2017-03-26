@@ -21,6 +21,21 @@
     }
 }
 
+//for map marker in contact before google maps
+.icon-hold-contact{
+  background-color: $einhorn-blue;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-left: 47%;
+  margin-top: 10%;
+  padding-top: 17px;
+    //makes icons white
+    .fa{
+      color: white;
+    }
+}
+
 
 .contact-email{
   color: $einhorn-blue !important;

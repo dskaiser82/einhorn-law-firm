@@ -134,6 +134,17 @@ COLOR Variables
         font-size: 12px;
         padding-left: 5px; }
 
+.icon-hold-contact {
+  background-color: #036bdb;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-left: 47%;
+  margin-top: 10%;
+  padding-top: 17px; }
+  .icon-hold-contact .fa {
+    color: white; }
+
 .contact-email {
   color: #036bdb !important; }
 
