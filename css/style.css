@@ -50,7 +50,7 @@ COLOR Variables
     color: #e3f2fd; }
 
 .header-email-hold {
-  background-color: black;
+  background-color: #036bdb;
   height: 250px;
   width: 90%; }
   .header-email-hold p {
@@ -58,8 +58,6 @@ COLOR Variables
     margin-top: 0px;
     padding-top: 16px; }
   .header-email-hold span {
-    color: #036bdb; }
-  .header-email-hold .fa-envelope {
     color: #036bdb; }
 
 .brand-logo {
