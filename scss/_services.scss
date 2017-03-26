@@ -17,8 +17,8 @@
 .serv-table{
   background-color: white;
   margin-top: -190px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
 
     .serv-col{
@@ -29,11 +29,14 @@
       border-color: $einhorn-light-blue;
         .icon-hold{
           background-color: $einhorn-blue;
-          border-radius: 70px;
-          height: 140px;
-          width: 50%;
+          border-radius: 50%;
+        	width: 115px;
+        	height: 115px;
           margin-left: 25%;
-          padding-top: 31px;
+          padding-top: 28px;
+        }
+        p{
+          padding-top: 10px;
         }
     }
 
