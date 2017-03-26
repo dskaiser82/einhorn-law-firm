@@ -80,14 +80,20 @@ COLOR Variables
     width: 500px;
     margin-top: -127px; }
 
-.ein-servicer {
+.servicer-section {
+  z-index: -1; }
+
+.servicer-title {
   width: 70%;
   margin-top: -20%; }
-  .ein-servicer h2 {
+  .servicer-title h2 {
     color: white;
     text-align: center; }
-  .ein-servicer p {
+  .servicer-title p {
     color: #e3f2fd; }
+
+.serv-table {
+  background-color: red; }
 
 /*********************
 Hs and Types

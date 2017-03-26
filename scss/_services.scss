@@ -1,6 +1,8 @@
+.servicer-section{
+  z-index: -1;
+}
 
-
-.ein-servicer{
+.servicer-title{
   width: 70%;
   margin-top: -20%;
     h2{
@@ -10,4 +12,9 @@
     p{
       color: $einhorn-light-blue
     }
+}
+
+.serv-table{
+  background-color: red;
+
 }
