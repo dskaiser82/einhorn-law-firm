@@ -167,7 +167,7 @@ nav {
 .hold-map {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -133px; }
+  margin-top: -26%; }
 
 /*********************
 Hs and Types
@@ -229,6 +229,10 @@ i.material-icons {
   .header-email-hold .fa-envelope {
     margin-top: 27px; }
 
+.icon-hold-contact i {
+  margin-top: 15px;
+  z-index: 1; }
+
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
   position: relative; }
@@ -255,9 +259,19 @@ i.material-icons {
     font-size: 16px; }
   .header-email-hold h6, .header-phone-hold h6 {
     font-size: 10px; } }
+@media only screen and (max-width: 420px) {
+  nav .top-line {
+    display: none; }
+
+  .header-email-hold h4, .header-phone-hold h4 {
+    color: orange;
+    font-size: 12px; }
+  .header-email-hold h6, .header-phone-hold h6 {
+    color: orange; } }
 footer p {
   color: #036bdb;
-  font-size: 10px; }
+  font-size: 10px;
+  padding-left: 15px; }
 footer span {
   color: #e3f2fd; }
 

@@ -47,5 +47,22 @@ position: relative;
       font-size: 10px;
     }
   }
+}
+
+@media only screen and (max-width : 420px){
+  nav{
+    .top-line{
+      display: none;
+    }
+  }
+  .header-email-hold, .header-phone-hold{
+    h4{
+      color: orange;
+      font-size: 12px;
+    }
+    h6{
+      color: orange;
+    }
+  }
 
 }
