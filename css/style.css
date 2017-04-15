@@ -225,7 +225,13 @@ i.material-icons {
     color: yellow;
     font-size: 20px; }
   .header-email-hold h6, .header-phone-hold h6 {
-    font-size: 15px; } }
+    font-size: 16px; } }
+@media only screen and (max-width: 500px) {
+  .header-email-hold h4, .header-phone-hold h4 {
+    color: purple;
+    font-size: 16px; }
+  .header-email-hold h6, .header-phone-hold h6 {
+    font-size: 10px; } }
 footer p {
   color: #036bdb;
   font-size: 10px; }

@@ -31,7 +31,20 @@ position: relative;
       font-size: 20px;
     }
     h6{
-      font-size: 15px;
+      font-size: 16px;
+    }
+  }
+}
+
+
+@media only screen and (max-width : 500px){
+  .header-email-hold, .header-phone-hold{
+    h4{
+      color: purple;
+      font-size: 16px;
+    }
+    h6{
+      font-size: 10px;
     }
   }
 
