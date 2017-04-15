@@ -6,9 +6,16 @@ nav {
 
 .top-line {
   background-color: black;
-  height: 20px; }
+  height: 20px;
+  padding-left: 100px;
+  margin-top: -10px; }
   .top-line p {
-    font-size: 6px; }
+    color: #8a9dab;
+    font-size: 10px; }
+  .top-line i {
+    color: #036bdb;
+    padding-left: 10px;
+    padding-right: 5px; }
 
 #about {
   margin-top: -4%;
@@ -172,6 +179,13 @@ h1, h2, h3, h4 {
 h5, h6 {
   font-family: 'Source Sans Pro', sans-serif !important;
   text-align: center; }
+
+nav a {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-style: bold;
+  font-weight: 800 !important;
+  color: #0E1119 !important;
+  font-size: 11px !important; }
 
 nav ul a,
 nav .brand-logo {
