@@ -53,6 +53,8 @@ COLOR Variables
   background-color: #036bdb;
   height: 230px;
   width: 100%; }
+  .header-email-hold h3 {
+    color: white; }
   .header-email-hold p {
     font-size: 30px;
     margin-top: 0px;
@@ -207,6 +209,12 @@ i.material-icons {
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
   position: relative; }
+
+footer p {
+  color: #036bdb;
+  font-size: 10px; }
+footer span {
+  color: #e3f2fd; }
 
 /* Custom Stylesheet */
 /**
