@@ -40,7 +40,7 @@ COLOR Variables
 
 .header-phone-hold {
   background-color: #036bdb;
-  height: 230px;
+  height: 210px;
   width: 100%; }
   .header-phone-hold h1 {
     color: white; }
@@ -51,7 +51,7 @@ COLOR Variables
 
 .header-email-hold {
   background-color: #036bdb;
-  height: 230px;
+  height: 210px;
   width: 100%; }
   .header-email-hold h3 {
     color: white; }
@@ -199,17 +199,33 @@ i.material-icons {
 .header-phone-hold {
   text-align: center; }
   .header-phone-hold .fa-phone {
-    margin-top: 15px; }
+    margin-top: 27px; }
 
 .header-email-hold {
   text-align: center; }
   .header-email-hold .fa-envelope {
-    margin-top: 15px; }
+    margin-top: 27px; }
 
 #sidenav-overlay {
   background-color: rgba(253, 250, 250, 0.5);
   position: relative; }
 
+@media (max-width: 768px) {
+  .header-email-hold h4, .header-phone-hold h4 {
+    color: red;
+    font-size: 25px; } }
+@media only screen and (max-width: 600px) {
+  .ein-opener {
+    width: 90%; }
+    .ein-opener h1 {
+      font-size: 45px;
+      color: yellow; }
+
+  .header-email-hold h4, .header-phone-hold h4 {
+    color: yellow;
+    font-size: 20px; }
+  .header-email-hold h6, .header-phone-hold h6 {
+    font-size: 15px; } }
 footer p {
   color: #036bdb;
   font-size: 10px; }
