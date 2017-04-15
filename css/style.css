@@ -40,8 +40,8 @@ COLOR Variables
 
 .header-phone-hold {
   background-color: #036bdb;
-  height: 250px;
-  width: 90%; }
+  height: 230px;
+  width: 100%; }
   .header-phone-hold h1 {
     color: white; }
   .header-phone-hold h3 {
@@ -51,8 +51,8 @@ COLOR Variables
 
 .header-email-hold {
   background-color: #036bdb;
-  height: 250px;
-  width: 90%; }
+  height: 230px;
+  width: 100%; }
   .header-email-hold p {
     font-size: 30px;
     margin-top: 0px;
@@ -117,7 +117,8 @@ COLOR Variables
 
 .contact-title {
   width: 80%;
-  margin-top: -20%; }
+  margin-top: -20%;
+  height: 200px; }
   .contact-title h2 {
     color: black;
     text-align: center; }
@@ -138,13 +139,17 @@ COLOR Variables
   width: 75px;
   height: 75px;
   margin-left: 47%;
-  margin-top: 10%;
-  padding-top: 17px; }
+  margin-top: 10%; }
   .icon-hold-contact .fa {
     color: white; }
 
 .contact-email {
   color: #036bdb !important; }
+
+.hold-map {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -133px; }
 
 /*********************
 Hs and Types
