@@ -7,10 +7,20 @@ position: relative;
 //smaller laptop and tablet
 @media (max-width: 768px)
     {
+          .top-line{
+            display: none;
+          }
          .header-email-hold, .header-phone-hold{
            h4{
              color: red;
              font-size: 25px;
+           }
+         }
+         .serv-table{
+           .serv-col{
+             .icon-hold{
+               margin-left: 16%;
+             }
            }
          }
 }
@@ -32,6 +42,14 @@ position: relative;
     }
     h6{
       font-size: 16px;
+    }
+  }
+
+  .serv-table{
+    .serv-col{
+      .icon-hold{
+        margin-left: 8%;
+      }
     }
   }
 }

@@ -7,7 +7,7 @@ nav {
 .top-line {
   background-color: black;
   height: 20px;
-  padding-left: 100px;
+  padding-left: 25px;
   margin-top: -10px; }
   .top-line p {
     color: #8a9dab;
@@ -180,6 +180,9 @@ h5, h6 {
   font-family: 'Source Sans Pro', sans-serif !important;
   text-align: center; }
 
+.serv-col h5 {
+  font-family: 'Abril Fatface' !important; }
+
 nav a {
   font-family: 'Source Sans Pro', sans-serif !important;
   font-style: bold;
@@ -238,9 +241,15 @@ i.material-icons {
   position: relative; }
 
 @media (max-width: 768px) {
+  .top-line {
+    display: none; }
+
   .header-email-hold h4, .header-phone-hold h4 {
     color: red;
-    font-size: 25px; } }
+    font-size: 25px; }
+
+  .serv-table .serv-col .icon-hold {
+    margin-left: 16%; } }
 @media only screen and (max-width: 600px) {
   .ein-opener {
     width: 90%; }
@@ -252,7 +261,10 @@ i.material-icons {
     color: yellow;
     font-size: 20px; }
   .header-email-hold h6, .header-phone-hold h6 {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .serv-table .serv-col .icon-hold {
+    margin-left: 8%; } }
 @media only screen and (max-width: 500px) {
   .header-email-hold h4, .header-phone-hold h4 {
     color: purple;
