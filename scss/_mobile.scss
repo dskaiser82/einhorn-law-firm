@@ -4,6 +4,11 @@ background-color: rgba(253, 250, 250, 0.5);
 position: relative;
 }
 
+
+//Turn Off Serv-Table-Mobile
+.serv-table-mobile{
+  display: none;
+}
 //smaller laptop and tablet
 @media (max-width: 768px)
     {
@@ -12,7 +17,7 @@ position: relative;
           }
          .header-email-hold, .header-phone-hold{
            h4{
-             color: red;
+            //  color: red;
              font-size: 25px;
            }
          }
@@ -27,13 +32,14 @@ position: relative;
 
 
 @media only screen and (max-width : 600px){
+//includes Galaxy 5
 
 
   .ein-opener{
     width: 90%;
     h1{
       font-size: 45px;
-      color: yellow;
+      // color: yellow;
     }
 
   }
@@ -45,10 +51,12 @@ position: relative;
 
   p, li{
     font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .header-email-hold, .header-phone-hold{
     h4{
-      color: yellow;
+      // color: yellow;
       font-size: 20px;
     }
     h6{
@@ -56,27 +64,68 @@ position: relative;
     }
   }
 
+.about-row{
+  padding-left: 30px;
+  padding-top: 20px;
+}
 
+.servicer-title{
+margin-top: -5%;
 
-  .serv-table{
-    .serv-col{
-      .icon-hold{
-        margin-left: 8%;
-      }
+}
+
+.serv-table{
+  .serv-col{
+    .icon-hold{
+      margin-left: 8%;
     }
   }
+
+ }
+ .contact-title{
+   margin-top: -90%;
+ }
+ .hold-map{
+   margin-top: -95%;
+ }
 }
 
 
 @media only screen and (max-width : 500px){
+//Change Serv Table for Mobile
+
   .header-email-hold, .header-phone-hold{
     h4{
-      color: purple;
+      // color: purple;
       font-size: 16px;
     }
     h6{
       font-size: 10px;
     }
+  }
+
+  //serv table
+  .serv-table{
+    display: none;
+  }
+  //Show serv-table-mobile
+  .serv-table-mobile{
+    display: block;
+    text-align: center;
+      .odd{
+        background-color: #fafafa;
+      }
+      .icon-hold{
+        background-color: $einhorn-blue;
+        border-radius: 50%;
+        width: 115px;
+        height: 115px;
+        margin-left: 39%;
+        padding-top: 28px;
+          .fa{
+            color: white;
+          }
+      }
   }
 }
 
@@ -86,14 +135,44 @@ position: relative;
       display: none;
     }
   }
+  h2{
+    font-size: 24px;
+  }
   .header-email-hold, .header-phone-hold{
     h4{
-      color: orange;
+      // color: orange;
       font-size: 12px;
     }
     h6{
-      color: orange;
+      // color: orange;
     }
+  }
+
+}
+
+
+@media only screen and (max-width : 375px){
+  //iPhone 5
+  .serv-table-mobile{
+    display: block;
+    text-align: center;
+      .odd{
+        background-color: #fafafa;
+      }
+      .icon-hold{
+        background-color: $einhorn-blue;
+        border-radius: 50%;
+        width: 115px;
+        height: 115px;
+        margin-left: 30%;
+        padding-top: 28px;
+          .fa{
+            color: white;
+          }
+      }
+  }
+  .contact-title{
+    width: 95%;
   }
 
 }

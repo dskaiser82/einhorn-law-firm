@@ -240,12 +240,14 @@ i.material-icons {
   background-color: rgba(253, 250, 250, 0.5);
   position: relative; }
 
+.serv-table-mobile {
+  display: none; }
+
 @media (max-width: 768px) {
   .top-line {
     display: none; }
 
   .header-email-hold h4, .header-phone-hold h4 {
-    color: red;
     font-size: 25px; }
 
   .serv-table .serv-col .icon-hold {
@@ -254,38 +256,86 @@ i.material-icons {
   .ein-opener {
     width: 90%; }
     .ein-opener h1 {
-      font-size: 45px;
-      color: yellow; }
+      font-size: 45px; }
 
   h2 {
     font-size: 30px; }
 
   p, li {
-    font-size: 12px; }
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px; }
 
   .header-email-hold h4, .header-phone-hold h4 {
-    color: yellow;
     font-size: 20px; }
   .header-email-hold h6, .header-phone-hold h6 {
     font-size: 16px; }
 
+  .about-row {
+    padding-left: 30px;
+    padding-top: 20px; }
+
+  .servicer-title {
+    margin-top: -5%; }
+
   .serv-table .serv-col .icon-hold {
-    margin-left: 8%; } }
+    margin-left: 8%; }
+
+  .contact-title {
+    margin-top: -90%; }
+
+  .hold-map {
+    margin-top: -95%; } }
 @media only screen and (max-width: 500px) {
   .header-email-hold h4, .header-phone-hold h4 {
-    color: purple;
     font-size: 16px; }
   .header-email-hold h6, .header-phone-hold h6 {
-    font-size: 10px; } }
+    font-size: 10px; }
+
+  .serv-table {
+    display: none; }
+
+  .serv-table-mobile {
+    display: block;
+    text-align: center; }
+    .serv-table-mobile .odd {
+      background-color: #fafafa; }
+    .serv-table-mobile .icon-hold {
+      background-color: #036bdb;
+      border-radius: 50%;
+      width: 115px;
+      height: 115px;
+      margin-left: 39%;
+      padding-top: 28px; }
+      .serv-table-mobile .icon-hold .fa {
+        color: white; } }
 @media only screen and (max-width: 420px) {
   nav .top-line {
     display: none; }
 
+  h2 {
+    font-size: 24px; }
+
   .header-email-hold h4, .header-phone-hold h4 {
-    color: orange;
-    font-size: 12px; }
-  .header-email-hold h6, .header-phone-hold h6 {
-    color: orange; } }
+    font-size: 12px; } }
+@media only screen and (max-width: 375px) {
+  .serv-table-mobile {
+    display: block;
+    text-align: center; }
+    .serv-table-mobile .odd {
+      background-color: #fafafa; }
+    .serv-table-mobile .icon-hold {
+      background-color: #036bdb;
+      border-radius: 50%;
+      width: 115px;
+      height: 115px;
+      margin-left: 30%;
+      padding-top: 28px; }
+      .serv-table-mobile .icon-hold .fa {
+        color: white; }
+
+  .contact-title {
+    width: 95%; } }
 footer p {
   color: #036bdb;
   font-size: 10px;
