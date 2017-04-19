@@ -249,13 +249,19 @@ i.material-icons {
     font-size: 25px; }
 
   .serv-table .serv-col .icon-hold {
-    margin-left: 16%; } }
+    margin-left: 19%; } }
 @media only screen and (max-width: 600px) {
   .ein-opener {
     width: 90%; }
     .ein-opener h1 {
       font-size: 45px;
       color: yellow; }
+
+  h2 {
+    font-size: 30px; }
+
+  p, li {
+    font-size: 12px; }
 
   .header-email-hold h4, .header-phone-hold h4 {
     color: yellow;

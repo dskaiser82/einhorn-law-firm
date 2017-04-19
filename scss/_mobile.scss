@@ -19,7 +19,7 @@ position: relative;
          .serv-table{
            .serv-col{
              .icon-hold{
-               margin-left: 16%;
+               margin-left: 19%;
              }
            }
          }
@@ -28,12 +28,23 @@ position: relative;
 
 @media only screen and (max-width : 600px){
 
+
   .ein-opener{
     width: 90%;
     h1{
       font-size: 45px;
       color: yellow;
     }
+
+  }
+
+//All H2s
+  h2{
+      font-size: 30px;
+  }
+
+  p, li{
+    font-size: 12px;
   }
   .header-email-hold, .header-phone-hold{
     h4{
@@ -44,6 +55,8 @@ position: relative;
       font-size: 16px;
     }
   }
+
+
 
   .serv-table{
     .serv-col{
