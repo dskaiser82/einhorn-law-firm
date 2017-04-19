@@ -240,6 +240,9 @@ i.material-icons {
   background-color: rgba(253, 250, 250, 0.5);
   position: relative; }
 
+#bio {
+  margin-top: -45px; }
+
 .serv-table-mobile {
   display: none; }
 
@@ -282,10 +285,10 @@ i.material-icons {
     margin-left: 8%; }
 
   .contact-title {
-    margin-top: -90%; }
+    margin-top: -70%; }
 
   .hold-map {
-    margin-top: -95%; } }
+    margin-top: -60%; } }
 @media only screen and (max-width: 500px) {
   .header-email-hold h4, .header-phone-hold h4 {
     font-size: 16px; }
