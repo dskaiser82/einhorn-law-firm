@@ -169,8 +169,11 @@ nav {
 .hold-map {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -26%;
-  padding-top: 6%; }
+  margin-top: -20%;
+  padding-top: 6%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px; }
 
 /*********************
 Hs and Types
@@ -283,6 +286,9 @@ i.material-icons {
 
   .servicer-title {
     margin-top: -5%; }
+
+  .servicer-section {
+    background-size: 200%; }
 
   .serv-table .serv-col .icon-hold {
     margin-left: 8%; }
