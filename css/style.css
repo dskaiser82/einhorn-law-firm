@@ -97,7 +97,9 @@ nav {
     margin-top: -127px; }
 
 .servicer-section {
-  z-index: -1; }
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
 .servicer-title {
   width: 70%;
@@ -167,7 +169,8 @@ nav {
 .hold-map {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -26%; }
+  margin-top: -26%;
+  padding-top: 6%; }
 
 /*********************
 Hs and Types
