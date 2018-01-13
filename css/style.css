@@ -125,13 +125,16 @@ nav {
     border-color: #e3f2fd; }
     .serv-table .serv-col .icon-hold {
       background-color: #036bdb;
-      border-radius: 50%;
+      border-radius: 10px;
+      position: relative;
       width: 115px;
-      height: 115px;
-      margin-left: 31%;
-      padding-top: 28px; }
+      height: 103px;
+      margin: 0 auto; }
       .serv-table .serv-col .icon-hold .fa {
-        color: white; }
+        color: white;
+        position: absolute;
+        top: 48px;
+        transform: translate(-50%, -50%); }
     .serv-table .serv-col p {
       padding-top: 10px; }
 
@@ -194,7 +197,7 @@ nav a {
   font-style: bold;
   font-weight: 800 !important;
   color: #0E1119 !important;
-  font-size: 11px !important; }
+  font-size: 16px !important; }
 
 nav ul a,
 nav .brand-logo {

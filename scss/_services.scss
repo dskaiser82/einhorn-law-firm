@@ -32,15 +32,18 @@
       border-width: 1px;
       border-color: $einhorn-light-blue;
         .icon-hold{
-          background-color: $einhorn-blue;
-          border-radius: 50%;
-        	width: 115px;
-        	height: 115px;
-          margin-left: 31%;
-          padding-top: 28px;
+          background-color: $einhorn-blue;;
+          border-radius: 10px;
+          position: relative;
+          width: 115px;
+          height: 103px;
+          margin: 0 auto;
             //makes icons white
             .fa{
               color: white;
+              position: absolute;
+              top: 48px;
+              transform: translate(-50%, -50%);
             }
         }
         p{
