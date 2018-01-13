@@ -1,14 +1,15 @@
-# kaiserTemplate
-// Sass Compiling for Styling
+Live Site: http://einhornlegal.com/
+
+#### Technologies:
+- [x] HTML / CSS / Sass
+- [x] Javascript
+- [x] Materialize CSS Framework
+
+#### Developer Notes:
+- [x] Sass Compiling for Styling
 sass --watch scss/style.scss:css/style.css
-
-//Sass controls all styling via scss/style.scss and partial .scss files (like _footer.scss)
-
-
-//Bio section
-No Partial for this section.  Better to re-use styles from services
-
-//alot of icons are controlled in the sass partials (service icons, contact)
+- [x] Bio section
+No Partial for this section. Re-uses styles from services
 
 
-//Services Table Mobile is line 265-351
+
