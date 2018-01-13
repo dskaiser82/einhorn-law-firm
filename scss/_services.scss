@@ -1,7 +1,7 @@
 .servicer-section{
   z-index: -1;
   background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
 }
 
 .servicer-title{
@@ -44,6 +44,8 @@
               position: absolute;
               top: 48px;
               transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);; /* IE 9 */
+              -webkit-transform: translate(-50%, -50%); /* Safari 3-8 */
             }
         }
         p{

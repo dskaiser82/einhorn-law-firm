@@ -134,7 +134,11 @@ nav {
         color: white;
         position: absolute;
         top: 48px;
-        transform: translate(-50%, -50%); }
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        /* IE 9 */
+        -webkit-transform: translate(-50%, -50%);
+        /* Safari 3-8 */ }
     .serv-table .serv-col p {
       padding-top: 10px; }
 
