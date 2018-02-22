@@ -86,15 +86,16 @@ nav {
   text-align: left; }
 
 .ein-abouter {
-  width: 70%;
-  margin-top: 10%;
-  display: flex; }
+  margin-top: 10%; }
   .ein-abouter h1 {
     color: #036bdb;
     text-align: left; }
   .ein-abouter img {
-    width: 500px;
-    margin-top: -127px; }
+    width: 100%;
+    margin-top: -50; }
+    @media (max-width: 650px) {
+      .ein-abouter img {
+        display: none; } }
 
 .servicer-section {
   z-index: -1;
