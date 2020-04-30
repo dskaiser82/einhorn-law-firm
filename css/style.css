@@ -179,22 +179,26 @@ nav {
   padding-top: 10px;
 }
 
-.contact-title {
-  width: 80%;
-  height: 200px;
+.inner-contact {
+  min-height: auto;
 }
-.contact-title h2 {
-  color: black;
-  text-align: center;
+
+.mini-holder {
+  display: flex;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.contact-title .mini-contact {
+
+.mini-contact {
   color: black;
   display: flex;
+  margin-right: 15px;
 }
-.contact-title .mini-contact i {
+.mini-contact i {
   color: #036bdb;
 }
-.contact-title .mini-contact i span {
+.mini-contact i span {
   color: grey;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 12px;
