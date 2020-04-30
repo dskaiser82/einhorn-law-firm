@@ -1,20 +1,29 @@
+
 .servicer-section{
   z-index: -1;
   background-repeat: no-repeat;
   background-size: 100%;
+  @media(max-width: 600px){
+    background-size: 1135px;
+    padding-top: 30px;
+  }
 }
 
 .servicer-title{
   width: 70%;
   margin-top: -20%;
+  @media(max-width: 600px){
+    width: 100%;
+  }
     h2{
       color: white;
       text-align: center;
     }
     p{
-      color: $einhorn-light-blue
+      color: $einhorn-light-blue;
     }
 }
+
 
 .serv-table{
   background-color: white;
@@ -22,7 +31,6 @@
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
-
 //controls icons in serv table
     .serv-col{
       text-align: center;

@@ -42,7 +42,8 @@ position: relative;
   .ein-opener{
     width: 90%;
     h1{
-      font-size: 45px;
+      font-size: 35px;
+      margin-top: 50px;
       // color: yellow;
     }
 
@@ -54,9 +55,7 @@ position: relative;
   }
 
   p, li{
-    font-size: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 14px;
   }
   .header-email-hold, .header-phone-hold{
     h4{
@@ -78,9 +77,6 @@ margin-top: -5%;
 
 }
 
-.servicer-section{
-  background-size: 270%;
-}
 .serv-table{
   .serv-col{
     .icon-hold{
@@ -119,6 +115,9 @@ margin-top: -5%;
   .serv-table-mobile{
     display: block;
     text-align: center;
+      .serv-row{
+        padding: 15px;
+      }
       .odd{
         background-color: #fafafa;
       }

@@ -129,10 +129,21 @@ nav {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+@media (max-width: 600px) {
+  .servicer-section {
+    background-size: 1135px;
+    padding-top: 30px;
+  }
+}
 
 .servicer-title {
   width: 70%;
   margin-top: -20%;
+}
+@media (max-width: 600px) {
+  .servicer-title {
+    width: 100%;
+  }
 }
 .servicer-title h2 {
   color: white;
@@ -140,6 +151,7 @@ nav {
 }
 .servicer-title p {
   color: #e3f2fd;
+  margin: 15px;
 }
 
 .serv-table {
@@ -344,7 +356,8 @@ i.material-icons {
     width: 90%;
   }
   .ein-opener h1 {
-    font-size: 45px;
+    font-size: 35px;
+    margin-top: 50px;
   }
 
   h2 {
@@ -352,9 +365,7 @@ i.material-icons {
   }
 
   p, li {
-    font-size: 12px;
-    padding-left: 30px;
-    padding-right: 30px;
+    font-size: 14px;
   }
 
   .header-email-hold h4, .header-phone-hold h4 {
@@ -371,10 +382,6 @@ i.material-icons {
 
   .servicer-title {
     margin-top: -5%;
-  }
-
-  .servicer-section {
-    background-size: 270%;
   }
 
   .serv-table .serv-col .icon-hold {
@@ -404,6 +411,9 @@ i.material-icons {
   .serv-table-mobile {
     display: block;
     text-align: center;
+  }
+  .serv-table-mobile .serv-row {
+    padding: 15px;
   }
   .serv-table-mobile .odd {
     background-color: #fafafa;
